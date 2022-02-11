@@ -1,4 +1,8 @@
-var randonNumber1 = Math.floor(Math.random() * 6) + 1; // 1-6 number
+
+
+var load = document.querySelector("button");
+addEventListener("click", function () {
+  var randonNumber1 = Math.floor(Math.random() * 6) + 1; // 1-6 number
 
 var randomDiceImage1 = "dice" + randonNumber1 + ".png"; // dice1-dice6
 
@@ -27,8 +31,5 @@ if (randonNumber1 > randonNumber2) {
 } else {
   document.querySelector("h1").innerHTML = "Draw!";
 }
-
-var load = document.querySelector("button");
-addEventListener("click", function () {
   location.reload();
 });
