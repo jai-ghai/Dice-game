@@ -27,3 +27,8 @@ if (randonNumber1 > randonNumber2) {
 } else {
   document.querySelector("h1").innerHTML = "Draw!";
 }
+
+var load = document.querySelector("button");
+addEventListener("click", function () {
+  location.reload();
+});
