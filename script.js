@@ -33,7 +33,6 @@ if (randonNumber1 > randonNumber2) {
 }
   
   
- var load = document.querySelector("button");
-addEventListener("click", function () { 
+ function reload1() { 
   location.reload();
 });
